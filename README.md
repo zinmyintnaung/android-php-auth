@@ -1,4 +1,4 @@
-<h2>Android app authenticating login with PHP script<h2>
+<h2>Android app authenticating login with PHP script</h2>
 <p>Code Explained</p>
 <ol>
 	<li>MainActivity{} will check whether user is logged in by using checkLogin() method in UserSessionManager{} class (This is to decide whether MainActivity{} or LoginActivity{} to be rendered)</li>
