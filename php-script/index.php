@@ -19,7 +19,7 @@ class MobileController extends CController
 		$user_name = $_POST['user_name'];
 		$user_pass = $_POST['user_password'];
 		
-		//You should have UserIdentity class written to match user name and password from the DB a
+		//You should have UserIdentity class written to match user name and password from the DB
 		$this->_identity = new UserIdentity($user_name,$user_pass); //set local
 		
 		if(!$this->_identity->authenticate()){ //check local

@@ -75,9 +75,8 @@ public class LoginActivity extends AppCompatActivity {
                                 }
                                 if (output.equals("Successful")) {
                                     // Creating user login session
-                                    // and email="androidexample84@gmail.com"
                                     session.createUserLoginSession(username,
-                                            "qpm_test@gmail.com");
+                                            "androidexample@gmail.com");
 
                                     // Starting MainActivity
                                     Intent i = new Intent(getApplicationContext(), MainActivity.class);
